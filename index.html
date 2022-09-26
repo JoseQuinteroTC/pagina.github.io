@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Hoja de vida</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navegacion">
+        <img src="resourses/logo.png" alt="logo" id="logo" />
+        <h1 class="titulos">Portafolio</h1>
+        <ul>
+          <li class="li"><a class="a" href="#main"> Inicio</a></li>
+          <li class="li"><a class="a" href="#exp"> Experiencias</a></li>
+          <li class="li"><a class="a" href="#tecnologias"> Tecnologias</a></li>
+          <li class="li"><a class="a" href="#contacto"> Contacto</a></li>
+          <!--<li class="li"><a class="a" href="#acercade"> Acerca de</a></li>-->
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="main">
+        <div class="content">
+          <div id="prueba">
+            <img
+              src="resourses/lienzo-blanco-sobre-caballete-madera_110488-843-removebg.png"
+              alt="imagen"
+            />
+            <p>
+              Elegí como imagen que me representa la de un lienzo en blanco
+              porque creo que siempre debemos ser así, estar listos para crear
+              cosas nuevas, aprender y dejar que otras personas puedan plasmar
+              en nosotros sus conocimientos, pero sobre todo elegí esta imagen
+              porque me gusta crear cosas nuevas, enfrentarme a nuevos retos y
+              reinventarme día tras día y estoy dispuesto a comenzar de cero
+              para lograr mis objetivos.
+            </p>
+            <br />
+            <p>
+              Soy una persona que le gusta estar en constante cambio y salir de
+              su zona de confort para ver de lo que realmente es capaz de
+              lograr, gracias a esto he logrado cumplir muchas de las metas que
+              me he propuesto a lo largo de mi vida
+            </p>
+          </div>
+          <hr class="lineaAmarrilla" id="exp" />
+          <div id="experiencias">
+            
+          </div>
+          <hr class="lineaAmarrilla" id="tecnologias" />
+          <div class="divtabla" id="habilidades">
+            
+          </div>
+          <hr class="lineaAmarrilla" id="contacto" />
+          <div>
+            <form action="">
+              <label for="asunto">Asunto</label>
+              <input class="inputPadron" id="asunto" type="text" required />
+
+              <label for="email">Email</label>
+              <input class="inputPadron" id="email" type="email" required />
+
+              <label for="mensaje">Mensaje</label>
+              <textarea
+                name="mensaje"
+                id="mensaje"
+                cols="30"
+                rows="10"
+                class="inputPadron"
+                required
+              ></textarea>
+
+              <input class="enviar" type="submit" />
+            </form>
+          </div>
+        </div>
+
+        <section>
+          <img
+            src="resourses/IMG_20220324_172257_768.jpg"
+            alt="imagen"
+            class="img"
+          />
+          <h1>Jose Quintero</h1>
+          <hr class="lineaAmarrilla" />
+          <p>
+            Soy un estudiante de ingeniería de sistemas, actualmente cursando mi
+            sexto semestre con conocimientos en lenguajes de programación como
+            JavaScript, Java y C++, sistemas gestores de bases de datos como
+            PostgreSQL. Además de pertenecer al tercer ciclo del programa
+            ONE(Oracle Next Education) en el cual me estoy formando en el área
+            del desarrollo web.
+          </p>
+          <a
+            href="https://www.linkedin.com/in/jose-quintero-97a6691a2/"
+            target="_blank"
+            class="boton"
+            >Red social</a
+          >
+        </section>
+      </div>
+      <footer id="acercade">
+        <h1>Contacto</h1>
+        <div>
+          <h3>Ciudad de recidencia</h3>
+          <h5>Santa Marta - Magdalena</h5>
+        </div>
+        <div>
+          <h3>Correo electronico</h3>
+          <h5>Cuellojose29@gmail.com</h5>
+          <h5>Josequinterotc@unimagdalena.edu.co</h5>
+        </div>
+        <div>
+          <h3>Celular</h3>
+          <h5>311 400 7764</h5>
+        </div>
+        <div id="redes">
+          <h3>Redes sociales</h3>
+          <a href="https://www.instagram.com/cuellojose29/" target="_blank"
+            ><img src="resourses/instagram.png" alt=""
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/jose-quintero-97a6691a2/"
+            target="_blank"
+            ><img src="resourses/linkedin.png" alt=""
+          /></a>
+          <a href="https://wa.me/573114007764" target="_blank"
+            ><img src="resourses/whatsapp.png" alt=""
+          /></a>
+        </div>
+      </footer>
+    </main>
+  </body>
+  <script src="app.js"></script>
+</html>
